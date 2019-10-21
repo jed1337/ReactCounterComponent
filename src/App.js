@@ -13,10 +13,6 @@ class App extends React.Component {
             <div className="App">
                 <h1>{this.state.number}</h1>
                 <header className="App-header">
-                    {/*<button onClick={() => {*/}
-                    {/*  this.setState({number: this.state.number+1})*/}
-                    {/*}}/>*/}
-
                     <h1>
                         <button onClick={() => {
                             this.setState({number: this.state.number + 1})
