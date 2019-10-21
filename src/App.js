@@ -1,29 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Counter from "./components/Counter";
 
 class App extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {number: 0};
-    }
-
     render() {
         return (
             <div className="App">
-                <h1>{this.state.number}</h1>
                 <header className="App-header">
-                    <h1>
-                        <button onClick={() => {
-                            this.setState({number: this.state.number + 1})
-                        }}> +
-                        </button>
 
-                        <button onClick={() => {
-                            this.setState({number: this.state.number - 1})
-                        }}> -
-                        </button>
-                    </h1>
+                  <Counter/>
 
                     <p>
                         Edit <code>src/App.js</code> and save to reload.
