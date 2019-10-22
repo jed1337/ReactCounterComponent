@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
 import Counter from "./components/Counter/Counter";
+import CounterWithReduxState from "./components/Counter/CounterWithReduxState";
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
 
-                <Counter/>
+                <CounterWithReduxState/>
 
                 <p>
                     Edit <code>src/App.js</code> and save to reload.
